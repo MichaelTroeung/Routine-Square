@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="/Images/IconConverter.png" width = "110"><br/>
-<b>Icon Converter</b>
+<b>Routine Square</b>
 </p>
 
 <br/>
@@ -17,22 +17,18 @@
 </p>
 
 ### Features
-- Converts PNG images into .icns and .ico icon formats
-- Icons generated include a series of resolutions that support a variety of sizes used through each Operating System (OS)
-- Exports all files directly onto the desktop
+- Interactive checklist of 5 key daily tasks.
+- Interactive checkmarks. 
+- Opens in upper right of screen.
+- Automatically resets checkmarks at midnight
 <br/>
 
 ### Languages/Frameworks
 <img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Shell_Script_Icon.png" width = "70" >
 
-
-Resizing images and conversion from PNG to .incs and .ico takes advantage of the speed of shell scripts. NodeJS' child process module was used to connect the interface with the shell scripts. The curves of the User-Interface (UI) was implemented by writing SVG line paths in the HTML code opposed loading SVG images which allows for future flexibility. Windows .ico conversion uses png-to-ico module.
-
 <br/>
 
 ### Project Files 
-[IconConverter Source Files](https://github.com/MichaelTroeung/Icon-Converter/tree/main)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://github.com/MichaelTroeung/Icon-Converter/releases/download/Release/IconConverter-1.0.1.dmg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[Routine Square Source Files](https://github.com/MichaelTroeung/Routine-Square/tree/main)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-MacOS [.dmg] installer available above. <b> NOTE: On MacOS right click and open to override warning. </b>
 
